@@ -1,20 +1,20 @@
 💱 Currency Converter
 
-A React project using Vite and Tailwind CSS. This project demonstrates my front-end development skills by creating a real-time currency converter with a clean and responsive interface.
+A React project using Vite and Tailwind CSS. This project demonstrates my front-end development skills by creating a real-time currency converter with a clean, responsive interface.
 
 🌟 Features
 
-💵 Real-Time Currency Conversion
+💵 Real-Time Conversion
 
-Convert amounts instantly between multiple currencies using live exchange rates.
+Convert amounts instantly between different currencies using live exchange rates.
 
 🌍 Multi-Currency Support
 
-Supports popular currencies like USD, INR, EUR, GBP, JPY, and more.
+Supports currencies like USD, INR, EUR, GBP, JPY, and more.
 
 📱 Responsive Design
 
-Works seamlessly on desktop, tablet, and mobile.
+Works seamlessly on desktop, tablet, and mobile devices.
 
 ⚙️ Simple & Intuitive UI
 
@@ -22,11 +22,11 @@ Easy-to-use interface for quick conversions.
 
 🛠️ Tech Stack
 
-React – Building the interactive UI.
+React – Building the user interface.
 
 Vite – Fast development setup and build tool.
 
-Tailwind CSS – Utility-first styling.
+Tailwind CSS – Minimalistic, utility-first styling.
 
 JavaScript – Handling conversion logic.
 
@@ -51,16 +51,16 @@ npm run dev
 
 
 Open your browser and go to http://localhost:5173
- to use the app.
+ to see the app in action.
 
 🎯 Goal
 
 Currency Converter is a simple application to showcase my ability to:
 
-Build responsive and interactive front-end applications.
+Build responsive and functional front-end applications.
 
 Fetch and display live data from APIs.
 
-Provide a clean, user-friendly interface for practical use.
+Provide a clean and user-friendly interface for practical use.
 
 Enjoy using Currency Converter! 💱
