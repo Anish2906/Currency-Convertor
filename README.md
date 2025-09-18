@@ -1,71 +1,66 @@
-Currency Converter 💱
+💱 Currency Converter
 
-Currency Converter is a modern web application built with React.js that allows users to quickly and easily convert amounts from one currency to another. The application fetches live exchange rates from a reliable API, ensuring accurate and up-to-date conversion results. It is designed to be intuitive, responsive, and user-friendly, making it suitable for everyday financial calculations or travel planning.
+A React project using Vite and Tailwind CSS. This project demonstrates my front-end development skills by creating a real-time currency converter with a clean and responsive interface.
 
-Key Features
+🌟 Features
 
-Real-time currency conversion: Get instant conversion results using live exchange rates.
+💵 Real-Time Currency Conversion
 
-Multiple currencies supported: Includes popular currencies such as USD, INR, EUR, GBP, JPY, and more.
+Convert amounts instantly between multiple currencies using live exchange rates.
 
-Responsive design: Works seamlessly on desktops, tablets, and mobile devices.
+🌍 Multi-Currency Support
 
-Clean and intuitive UI: Designed with a simple layout for ease of use.
+Supports popular currencies like USD, INR, EUR, GBP, JPY, and more.
 
-Error handling: Alerts the user if an invalid input is entered or if API fails.
+📱 Responsive Design
 
-Technologies & Tools Used
+Works seamlessly on desktop, tablet, and mobile.
 
-Frontend: React.js, HTML5, CSS3, JavaScript
+⚙️ Simple & Intuitive UI
 
-API: Currency conversion API (e.g., Fawaz Ahmed Currency API
-)
+Easy-to-use interface for quick conversions.
 
-Version Control: Git and GitHub
+🛠️ Tech Stack
 
-Development Tools: VS Code, Chrome DevTools
+React – Building the interactive UI.
 
-How It Works
+Vite – Fast development setup and build tool.
 
-The user enters an amount in the source currency.
+Tailwind CSS – Utility-first styling.
 
-Selects the source currency and the target currency from dropdown menus.
+JavaScript – Handling conversion logic.
 
-Clicks the “Convert” button.
+Currency API – Fetching live exchange rates.
 
-The app fetches the current exchange rate from the API and displays the converted amount instantly.
+⚙️ Installation & Setup
 
-Installation Instructions
+Clone the Repository
 
-To run the project locally:
-
-# Clone the repository
 git clone https://github.com/Anish2906/Currency-Convertor.git
-
-# Navigate to the project directory
 cd Currency-Convertor
 
-# Install dependencies (React project)
+
+Install Dependencies
+
 npm install
 
-# Start the development server
-npm start
+
+Run the Project
+
+npm run dev
 
 
-The app will run on http://localhost:3000/ by default.
+Open your browser and go to http://localhost:5173
+ to use the app.
 
-Future Improvements
+🎯 Goal
 
-Add historical exchange rate charts.
+Currency Converter is a simple application to showcase my ability to:
 
-Add multi-language support for global users.
+Build responsive and interactive front-end applications.
 
-Integrate dark mode for better accessibility.
+Fetch and display live data from APIs.
 
-Add currency favorites for quick conversion.
+Provide a clean, user-friendly interface for practical use.
 
-Live Demo
-
-https://Anish2906.github.io/Currency-Convertor/
-
-
+Enjoy using Currency Converter! 💱
