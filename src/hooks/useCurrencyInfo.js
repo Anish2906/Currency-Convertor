@@ -1,21 +1,17 @@
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react"
 
-function useCurrencyInfo(baseCurrency) {
-  const [data, setData] = useState({});
 
-  useEffect(() => {
-    fetch(
-      `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${baseCurrency}.json`
-    )
-      .then((res) => res.json())
-      .then((res) => {
-        console.log("API Response:", res); // ✅ debug
-        setData(res[baseCurrency]); // ✅ correct key
-      })
-      .catch((err) => console.error("API Error:", err));
-  }, [baseCurrency]);
-
-  return data;
+function useCurrencyInfo(currency){
+    const [data, setData] = useState({})
+    useEffect(() => {
+        fetch(`let url = https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/inr.json
+`)
+        .then((res) => res.json())
+        .then((res) => setData(res[currency]))
+        console.log(data);
+    }, [currency])
+    console.log(data);
+    return data
 }
 
 export default useCurrencyInfo;
